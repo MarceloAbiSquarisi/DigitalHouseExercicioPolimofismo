@@ -75,9 +75,9 @@ class Aviao: Veiculo{
     var companhiaAeria: String
     
     init (piloto: String, companhiaAeria: String, cor: String, preco: Float, numeroPassageiros: Int){
-        self.piloto: piloto
-        self.companhiaAeria: companhiaAeria
-        super.initcor: cor , preco: preco, numeroPassageiros: numeroPassageiros)
+        self.piloto =  piloto
+        self.companhiaAeria =  companhiaAeria
+        super.init(cor: cor , preco: preco, numeroPassageiros: numeroPassageiros)
         
     }
 }
